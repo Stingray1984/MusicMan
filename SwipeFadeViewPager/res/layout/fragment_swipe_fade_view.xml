@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.va.swipefadeviewpager"
+    xmlns:tools="http://schemas.android.com/tools"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp" >
+
+    <com.va.swipefadeviewpager.widget.SwipeFadeView
+        android:id="@+id/swipeFadePage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:focusCropMargin="16dp"
+        app:focusImage="@drawable/stingray_2"
+        app:backgroundImage="@drawable/stingray_2"
+        app:messageText="TestMessage Massage Superduper Awesome Message"
+        app:messageTextColor="@android:color/black"
+        app:messageTextSize="5sp"
+        app:titleText="Awesome!"
+        app:titleTextColor="@android:color/black"
+        app:titleTextSize="8sp" 
+        android:layout_margin="0dp"
+        android:padding="0dp" /> 
+
+</RelativeLayout>

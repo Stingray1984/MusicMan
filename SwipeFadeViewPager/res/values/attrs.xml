@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeFadeView">
+        <attr name="titleText" format="string" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="messageText" format="string" />
+        <attr name="messageTextSize" format="dimension" />
+        <attr name="messageTextColor" format="color" />
+        <attr name="backgroundImage" format="integer" />
+        <attr name="backgroundBlurRadius" format="integer" />
+        <attr name="focusImage" format="integer" />
+        <attr name="focusCropMargin" format="dimension" />
+        <attr name="focusCropRadius" format="dimension" />
+        <attr name="focusStrokeWidth" format="dimension" />
+        <attr name="focusStrokeColor" format="color" />
+    </declare-styleable>
+</resources>
